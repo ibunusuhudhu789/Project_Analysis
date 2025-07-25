@@ -1,0 +1,9 @@
+# Treat Excel files as binary, prevent diff/merge
+*.xlsx binary
+*.xls binary
+
+# Normalize text files (e.g., README.md) to use LF line endings
+*.md text eol=lf
+
+# Mark these files as linguist-generated (optional: if you don’t want them counted in language stats)
+*.xlsx linguist-document
